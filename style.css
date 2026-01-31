@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #E6F4EC;
+    color: #0B3D2E;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/* Container central */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1 {
+    margin-bottom: 5px;
+    color: #0B3D2E;
+}
+
+h2 {
+    margin-top: 40px;
+    border-left: 6px solid #1E7F4E;
+    padding-left: 10px;
+    color: #0B3D2E;
+}
+
+h3 {
+    margin-top: 25px;
+    color: #1E7F4E;
+}
+
+/* Texto */
+p {
+    margin: 10px 0;
+}
+
+/* Linha horizontal */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #1E7F4E;
+    margin: 20px 0;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Links */
+a {
+    color: #1E7F4E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tags destacadas */
+.tags {
+    font-weight: bold;
+    color: #0B3D2E;
+}
+
+/* Botões */
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #1E7F4E;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0B3D2E;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #4d6f5f;
+}
